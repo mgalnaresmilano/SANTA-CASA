@@ -81,13 +81,16 @@
     <!-- Decision Tables -->
     <types><members>*</members><name>DecisionTable</name></types>
     <types><members>*</members><name>DecisionTableDatasetLink</name></types>
+    <types><members>*</members><name>DecisionMatrixDefinition</name></types>
+    <types><members>*</members><name>DecisionMatrixDefinitionVersion</name></types>
 
     <!-- Revenue Cloud — Context Service -->
     <types><members>*</members><name>ContextDefinition</name></types>
-    <types><members>*</members><name>ContextMapping</name></types>
+    <types><members>*</members><name>ContextUseCaseMapping</name></types>
 
     <!-- Revenue Cloud — Pricing &amp; Procedures -->
     <types><members>*</members><name>ExpressionSetDefinition</name></types>
+    <types><members>*</members><name>ExpressionSetDefinitionVersion</name></types>
     <types><members>*</members><name>ExpressionSetObjectAlias</name></types>
 
     <!-- Revenue Cloud — OmniStudio -->
@@ -102,7 +105,8 @@
 
     <!-- Revenue Cloud — Document Generation (CLM / DocGen) -->
     <types><members>*</members><name>DocumentTemplate</name></types>
-    <types><members>*</members><name>DocumentClause</name></types>
+    <types><members>*</members><name>DocumentGenerationSetting</name></types>
+    <types><members>*</members><name>ClauseCatgConfiguration</name></types>
 
     <!-- Revenue Cloud — Approvals -->
     <types><members>*</members><name>ApprovalProcess</name></types>
@@ -111,9 +115,10 @@
     <types><members>*</members><name>GenAiPlugin</name></types>
     <types><members>*</members><name>GenAiFunction</name></types>
     <types><members>*</members><name>GenAiPlanner</name></types>
-    <types><members>*</members><name>BotDefinition</name></types>
+    <types><members>*</members><name>GenAiPlannerBundle</name></types>
+    <types><members>*</members><name>GenAiPromptTemplate</name></types>
+    <types><members>*</members><name>Bot</name></types>
     <types><members>*</members><name>BotVersion</name></types>
-    <types><members>*</members><name>PromptTemplate</name></types>
 
     <!-- Experience Cloud -->
     <types><members>*</members><name>Network</name></types>
@@ -123,5 +128,5 @@
     <!-- Workflows (legacy) -->
     <types><members>*</members><name>Workflow</name></types>
 
-    <version>66.0</version>
+    <version>67.0</version>
 </Package>
